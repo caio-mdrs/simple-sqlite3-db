@@ -9,7 +9,7 @@ def create_Db():
 
     banco.commit()
 
-def insert_Date():
+def insert_Data():
     #last_id = cursor.execute('SELECT LAST_VALUE(ID) FROM main')
     #print(f"ID: {last_id}")
     command = input("ID|'Nome'|Idade|'Email':")
@@ -32,7 +32,7 @@ while True:
     if choice == 1:
         create_Db()
     elif choice == 2:
-        insert_Date()
+        insert_Data()
     elif choice == 3:
         insert_Command()
     elif choice == 4:
